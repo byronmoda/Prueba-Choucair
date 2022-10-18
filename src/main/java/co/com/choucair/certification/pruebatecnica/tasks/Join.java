@@ -23,7 +23,7 @@ import net.serenitybdd.screenplay.actions.SelectFromOptions;
                 actor.attemptsTo(Click.on(UtestJoinPage.JOIN_BUTTON),
                 Enter.theValue("Pedro").into(UtestJoinPage.INPUT_FIRSTNAME),
                 Enter.theValue("Palacios").into(UtestJoinPage.INPUT_LASTNAME),
-                Enter.theValue("pepe70@gmail.com").into(UtestJoinPage.INPUT_EMAIL),
+                Enter.theValue("pepe77@gmail.com").into(UtestJoinPage.INPUT_EMAIL),
                 SelectFromOptions.byVisibleText("October").from(UtestJoinPage.INPUT_MONTH),
                 SelectFromOptions.byVisibleText("31").from(UtestJoinPage.INPUT_DAY),
                 SelectFromOptions.byVisibleText("2000").from(UtestJoinPage.INPUT_YEAR),
